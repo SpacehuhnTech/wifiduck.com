@@ -1,5 +1,3 @@
-# WiFi Duck
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
     <img alt="WiFi Duck Video Thumbnail" src="assets/img/showcase.gif" width="400">
@@ -8,7 +6,9 @@
   </a>
 </p>
 
-The WiFi Duck is an open-source project and user-friendly tool to learn about keystroke injection attacks or 'BadUSBs'. By emulating a USB keyboard, a BadUSB can gain full access to a computer in a matter of seconds!  
+# WiFi Duck
+
+A user-friendly open-source project to learn about keystroke injection attacks or 'BadUSBs'. By emulating a USB keyboard, BadUSBs can gain full access to a computer in a matter of seconds!  
 
 Unlike with other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card. 
 You simply connect via WiFi to manage all your scripts from within a web interface.
