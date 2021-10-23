@@ -16,7 +16,7 @@ You simply connect via WiFi to manage all your scripts from within a web interfa
 This tool is intended to be used for testing, training, and educational purposes only.  
 Never use it to do harm or create damage!  
 
-{% include email.html %}
+{% include support.html %}
 
 ## Malduino W
 
