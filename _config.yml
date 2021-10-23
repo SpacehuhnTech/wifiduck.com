@@ -3,6 +3,9 @@ title: WiFi Duck
 description: Open-Source Wireless BadUSB
 show_downloads: true
 github:
+  owner_name: Spacehuhn Technologies
+  owner_url: https://spacehuhn.com
+  repository_name: WiFi Duck
   repository_url: https://github.com/SpacehuhnTech/WiFiDuck
   zip_url: https://github.com/SpacehuhnTech/WiFiDuck/archive/refs/heads/master.zip
   tar_url: https://github.com/SpacehuhnTech/WiFiDuck/archive/refs/heads/master.tar.gz
