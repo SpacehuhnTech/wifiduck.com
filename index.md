@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="WiFi Duck Functions" src="assets/img/wifiduck_functions.png" width="640">
+<img alt="WiFi Duck Logo" src="assets/img/thumbnail.jpg" width="640">
 </p>
 
 ## About
@@ -37,9 +37,7 @@ under Tools in the Arduino IDE.
 
 If you have further questions, check out the [issue section](https://github.com/spacehuhn/WiFiDuck/issues).  
 
-## Hardware
-
-### Malduino W
+## Malduino W
 
 <p align="center">
   <a href="https://maltronics.com/collections/malduinos/products/malduino-w">
@@ -54,7 +52,7 @@ Having USB-A and USB-C makes it compatible with all kind of devices.
 It comes flashed with the WiFi Duck firmware and works plug and play.  
 ℹ️ **[Documentation can be found here](http://docs.maltronics.com/malduino-w/)**
 
-### DSTIKE WiFi Duck
+## DSTIKE WiFi Duck
 
 <p align="center">
   <a href="https://dstike.com/collections/frontpage/products/dstike-wifi-duck">
@@ -65,19 +63,6 @@ It comes flashed with the WiFi Duck firmware and works plug and play.
 </p>
 
 A custom designed development board which comes preflashed with this software by Travis Lin.  
-
-You can update the ESP8266 over the air and flash the Atmega32u4 via Arduino, all while enclosed in its neat little case.  
-📺 **[Watch the How to Update Tutorial here](https://youtu.be/e3-nsOjclsY)**.
-
-If you wish to develop your own software or help improve this one, 
-the 8-bit DIP-switch makes it easy for you to access the Atmega32u4 or ESP8266 independently. 
-For more info see [Flash Software](#flash-software).
-
-| Mode | Atmega32u4 | ESP8266 | DIP-switch | Image |
-| --- | --- | --- | --- | --- |
-| Default Operating Mode | USB | On | 10101101 | <img alt="dstike wifi duck work mode" src="assets/img/dstike_normal.jpg" height="50px"> |
-| Atmega32u4 Flash Mode | USB | Off |10101010 | <img alt="dstike wifi duck atmega mode" src="assets/img/dstike_atmega.jpg" height="50px"> |
-| ESP8266 Flash Mode | Off | USB | 01011101 | <img alt="dstike wifi duck esp8266 mode" src="assets/img/dstike_esp8266.jpg" height="50px"> |
 
 ## Disclaimer
 
