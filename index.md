@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="WiFi Duck Logo" src="assets/img/thumbnail.jpg" width="640">
+    <img alt="WiFi Duck Functions" src="assets/img/wifiduck_functions.png" width="640">
 </p>
 
 ## About
