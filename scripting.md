@@ -1,10 +1,4 @@
-
-+ [Basics](#basics)
-+ [Functions](#functions)
-+ [Standard Keys](#standard-keys)
-+ [Modifier Keys](#modifier-keys)
-+ [Other Keys](#other-keys)
-+ [Examples](#examples)
+# Scripting
 
 ## Basics
 
