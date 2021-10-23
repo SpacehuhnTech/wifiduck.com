@@ -1,3 +1,5 @@
+# WiFi Duck
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
     <img alt="WiFi Duck Video Thumbnail" src="assets/img/showcase.gif" width="400">
@@ -10,6 +12,10 @@ The WiFi Duck is an open-source project and user-friendly tool to learn about ke
 
 Unlike with other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card. 
 You simply connect via WiFi to manage all your scripts from within a web interface.
+
+<a href="{{ site.github.repository_url }}#usage" class="btn">Usage</a>
+<a href="{{ site.github.repository_url }}#diy-hardware" class="btn">DIY</a>
+<a href="{{ site.github.repository_url }}#flash-software" class="btn">Installation</a>
 
 **Disclaimer:**
 

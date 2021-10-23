@@ -83,36 +83,6 @@ h3 {
   font-family: 'Bungee', cursive;
 }
 
-nav {
-  background-color: #323232;
-}
-
-nav ul {
-  max-width: 64rem;
-  padding: 0 6rem;
-  margin: 0 auto;
-  list-style-type: none;
-  overflow: hidden;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav ul li a:hover,
-nav ul li a:active {
-  background-color: #111;
-  text-decoration: none;
-}
-
 .support-us {
   padding: 1em;
   border: 10px solid #96B0C1;
