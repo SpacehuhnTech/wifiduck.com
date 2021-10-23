@@ -84,7 +84,7 @@ h3 {
 }
 
 nav {
-  background-color: #333;
+  background-color: #323232;
 }
 
 nav ul {
@@ -107,6 +107,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:active {
   background-color: #111;
+  text-decoration: none;
 }
