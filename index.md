@@ -1,28 +1,4 @@
 <p align="center">
-    <img alt="WiFi Duck Functions" src="assets/img/wifiduck_functions.png">
-</p>
-
-This open-source project aims to provide a user-friendly tool to learn about keystroke injection attacks and 'BadUSBs'.  
-
-By emulating a USB keyboard, tools like this can gain full access to any computer with a USB port in a matter of seconds!  
-This is made possible by the fact that keyboards are trusted by computers. You can have full control over a computer with just a keyboard.  
-A BadUSB pretends to be a keyboard to the computer to send keystrokes. 
-But unlike a human, it can type hundreds of characters per second. 
-By using a simple scripting language, it's easy to make BadUSBs type whatever you want. 
-
-With the WiFi Duck, you can simply connect via WiFi to manage all scripts
-from within a web interface. This means that, unlike other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card.  
-
-## Disclaimer
-
-This tool is intended to be used for testing, training, and educational purposes only.  
-Never use it to do harm or create damage!  
-
-The continuation of this project counts on you!  
-
-## Usage
-
-<p align="center">
   <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
     <img alt="WiFi Duck Video Thumbnail" src="assets/img/showcase.gif" width="400">
     <br>
@@ -30,17 +6,19 @@ The continuation of this project counts on you!
   </a>
 </p>
 
-1. Plug in your WiFi Duck
-2. Connect to the WiFi network `wifiduck` with the password `wifiduck`
-3. Open a browser and visit `192.168.4.1`
-4. Write, save and run your first Ducky Script
-5. [Recommended] Open `Settings` (top right corner) and update SSID and password
+<p align="center">
+    <img alt="WiFi Duck Functions" src="assets/img/wifiduck_functions.png">
+</p>
 
-**Help I forgot the password:**
-[Flash the ESP8266](#flash-esp8266), but make sure that you select `Erase Flash: Sketch + WiFi Settings`
-under Tools in the Arduino IDE.  
+The WiFi Duck is an open-source project that aims to provide a user-friendly tool to learn about keystroke injection attacks and 'BadUSBs'. By emulating a USB keyboard, a BadUSB can gain full access to any computer with a USB port in a matter of seconds!  
 
-If you have further questions, check out the [issue section](https://github.com/spacehuhn/WiFiDuck/issues).  
+Unlike other BadUSBs, with the WiFi Duck you don't need to install an app, log in, compile or copy scripts to an SD card.  
+You can simply connect via WiFi to manage all your scripts from within a web interface.
+
+## Disclaimer
+
+This tool is intended to be used for testing, training, and educational purposes only.  
+Never use it to do harm or create damage!  
 
 ## Malduino W
 
@@ -52,9 +30,8 @@ If you have further questions, check out the [issue section](https://github.com/
   </a>
 </p>
 
-A nicely encased, inconspicuous looking BadUSB by Maltronics.  
-Having USB-A and USB-C makes it compatible with all kind of devices.  
-It comes flashed with the WiFi Duck firmware and works plug and play.  
+This encased and inconspicuous looking BadUSB by Maltronics comes with both USB-A and USB-C.
+It runs the WiFi Duck firmware and works plug and play.  
 ℹ️ **[Documentation can be found here](http://docs.maltronics.com/malduino-w/)**
 
 ## DSTIKE WiFi Duck
@@ -67,4 +44,4 @@ It comes flashed with the WiFi Duck firmware and works plug and play.
   </a>
 </p>
 
-A custom designed development board which comes preflashed with this software by Travis Lin.  
+A custom designed development board which comes preflashed with the WiFi Duck firmware by Travis Lin.  
