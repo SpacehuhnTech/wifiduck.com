@@ -1,0 +1,87 @@
+
++ [Basics](#basics)
++ [Functions](#functions)
++ [Standard Keys](#standard-keys)
++ [Modifier Keys](#modifier-keys)
++ [Other Keys](#other-keys)
++ [Examples](#examples)
+
+## Basics
+
+Keys are separated by a single space.  
+Everything written in a single line gets pressed and released at the same time.  
+To write text, use the STRING function.  
+It's compatible to Ducky Script, which was developed by the wonderful people at [Hak5](https://www.hak5.org/).  
+
+| Example | Explanation |
+| ------- | ----------- |
+| WINDOWS <br> r | Type the Windows key and then the r key |
+| WINDOWS r | Press the Windows key and the r key simultaneously |
+| STRING WINDOWS r | Write WINDOWS r |
+
+## Functions
+
+| Command | Example | Description |
+| ------- | ------- | ----------- |
+| `REM` | `REM Hello World!` |Comment |
+| `DEFAULTDELAY` or `DEFAULT_DELAY` | `DEFAULTDELAY 200` | Time in ms between every command |
+| `DELAY` | `DELAY 1000` | Delay in ms |
+| `STRING` | `STRING Hello World!` | Types the following string |
+| `REPEAT` or `REPLAY` | `REPEAT 3` | Repeats the last command n times |
+| `LOCALE` | `LOCALE DE` | Sets the keyboard layout. Available: `DE`, `ES`, `GB`, `US`, `DK`, `RU`, `FR` |
+| `KEYCODE` | `KEYCODE 0x02 0x04` | Types a specific key code (modifier, key1[, ..., key6]) in decimal or hexadecimal |
+| `LED` | `LED 40 20 10` |Changes the color of the LED in decimal RGB values (0-255) |
+
+## Standard Keys
+
+| Key |
+| --- |
+| `a` - `z` |
+| `A` - `Z` |
+| `0` - `9` |
+| `F1` - `F12` |
+
+## Modifier Keys
+
+| Key |
+| --- |
+| `CTRL` or `CONTROL` |
+| `SHIFT` |
+| `ALT` |
+| `WINDOWS` or `GUI` |
+
+## Other Keys
+
+| Key |
+| --- |
+| `ENTER` |
+| `MENU` or `APP`|
+| `DELETE` |
+| `HOME` |
+| `INSERT` |
+| `PAGEUP` |
+| `PAGEDOWN` |
+| `UP` or `UPARROW` |
+| `DOWN` or `DOWNARROW` |
+| `LEFT` or `LEFTARROW` |
+| `RIGHT` or `RIGHTARROW` |
+| `TAB` |
+| `END` |
+| `ESC` or `ESCAPE` |
+| `SPACE` |
+| `PAUSE or BREAK` |
+| `CAPSLOCK` |
+| `NUMLOCK` |
+| `PRINTSCREEN` |
+| `SCROLLLOCK` |
+
+## Examples
+
+```
+REM Hello World for Windows PCs
+DEFAULTDELAY 200
+GUI r
+STRING notepad
+ENTER
+STRING Hello World!
+```
