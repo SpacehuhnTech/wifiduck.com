@@ -22,7 +22,9 @@ Never use it to do harm or create damage!
 
 {% include support.html %}
 
-## Malduino W
+## Buy
+
+### Malduino W
 
 <p align="center">
   <a href="https://maltronics.com/collections/malduinos/products/malduino-w">
@@ -36,7 +38,7 @@ This encased and inconspicuous looking BadUSB by Maltronics comes with both USB-
 It runs the WiFi Duck firmware and works plug and play.  
 ℹ️ **[Documentation can be found here](http://docs.maltronics.com/malduino-w/)**
 
-## DSTIKE WiFi Duck
+### DSTIKE WiFi Duck
 
 <p align="center">
   <a href="https://dstike.com/collections/frontpage/products/dstike-wifi-duck">
