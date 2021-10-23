@@ -19,7 +19,7 @@ from within a web interface. This means that, unlike other BadUSBs, you don't ne
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
-    <img alt="WiFi Duck Video Thumbnail" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/master/assets/img/showcase.gif" width="400">
+    <img alt="WiFi Duck Video Thumbnail" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/masterimg/showcase.gif" width="400">
     <br>
     <b>Watch the full video</b>
   </a>
