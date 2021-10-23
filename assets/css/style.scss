@@ -83,19 +83,23 @@ h3 {
   font-family: 'Bungee', cursive;
 }
 
-.navbar {
+nav {
+  max-width: 64rem;
+  background-color: #333;
+}
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
-.navbar li {
+nav ul li {
   float: left;
 }
 
-.navbar li a {
+nav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -103,6 +107,6 @@ h3 {
   text-decoration: none;
 }
 
-.navbar li a:hover {
+nav ul li a:hover {
   background-color: #111;
 }
