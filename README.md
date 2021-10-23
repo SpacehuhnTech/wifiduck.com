@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# WiFi Duck
+
+## Open-Source Wireless BadUSB
 
 You can use the [editor on GitHub](https://github.com/spacehuhn/WiFiDuck.com/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
