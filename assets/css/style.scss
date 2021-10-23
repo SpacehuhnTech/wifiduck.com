@@ -3,7 +3,27 @@
 
 @import "{{ site.theme }}";
 
+/* bungee-regular - latin */
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bungee-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/bungee-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/bungee-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bungee-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/bungee-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/bungee-v6-latin-regular.svg#Bungee') format('svg'); /* Legacy iOS */
+}
+
 .project-logo {
   max-width: 15em;
   max-height: 15em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bungee', cursive;
 }
