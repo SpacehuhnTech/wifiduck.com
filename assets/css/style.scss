@@ -80,7 +80,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Bungee', cursive;
+  font-family: 'Bungee', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -94,6 +94,7 @@ nav .btn {
 
 nav .btn:hover {
   background: #2e91e6;
+  color: #fff;
 }
 
 .support-us {
