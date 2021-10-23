@@ -19,7 +19,7 @@ from within a web interface. This means that, unlike other BadUSBs, you don't ne
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
-    <img alt="WiFi Duck Video Thumbnail" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/master//assets/img/showcase.gif" width="400">
+    <img alt="WiFi Duck Video Thumbnail" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/master/assets/img/showcase.gif" width="400">
     <br>
     <b>Watch the full video</b>
   </a>
@@ -43,7 +43,7 @@ If you have further questions, check out the [issue section](https://github.com/
 
 <p align="center">
   <a href="https://maltronics.com/collections/malduinos/products/malduino-w">
-    <img alt="Malduino W" src="/assets/img/malw.jpg" width="400">
+    <img alt="Malduino W" src="assets/img/malw.jpg" width="400">
     <br>
     <b>Go to Maltronics.com</b>
   </a>
@@ -58,7 +58,7 @@ It comes flashed with the WiFi Duck firmware and works plug and play.
 
 <p align="center">
   <a href="https://dstike.com/collections/frontpage/products/dstike-wifi-duck">
-    <img alt="DSTIKE WiFi Duck" src="/assets/img/dstikeboard.jpg" width="400">
+    <img alt="DSTIKE WiFi Duck" src="assets/img/dstikeboard.jpg" width="400">
     <br>
     <b>Got to DSTIKE.com</b>
   </a>
@@ -75,11 +75,9 @@ For more info see [Flash Software](#flash-software).
 
 | Mode | Atmega32u4 | ESP8266 | DIP-switch | Image |
 | --- | --- | --- | --- | --- |
-| Default Operating Mode | USB | On | 10101101 | <img alt="dstike wifi duck work mode" src="/assets/img/dstike_normal.jpg" height="50px"> |
-| Atmega32u4 Flash Mode | USB | Off |10101010 | <img alt="dstike wifi duck atmega mode" src="/assets/img/dstike_atmega.jpg" height="50px"> |
-| ESP8266 Flash Mode | Off | USB | 01011101 | <img alt="dstike wifi duck esp8266 mode" src="/assets/img/dstike_esp8266.jpg" height="50px"> |
-
-
+| Default Operating Mode | USB | On | 10101101 | <img alt="dstike wifi duck work mode" src="assets/img/dstike_normal.jpg" height="50px"> |
+| Atmega32u4 Flash Mode | USB | Off |10101010 | <img alt="dstike wifi duck atmega mode" src="assets/img/dstike_atmega.jpg" height="50px"> |
+| ESP8266 Flash Mode | Off | USB | 01011101 | <img alt="dstike wifi duck esp8266 mode" src="assets/img/dstike_esp8266.jpg" height="50px"> |
 
 ## Disclaimer
 
