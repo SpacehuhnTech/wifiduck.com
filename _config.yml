@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: WiFi Duck
 description: Open-Source Wireless BadUSB
+show_downloads: true
 github:
   repository_url: https://github.com/SpacehuhnTech/WiFiDuck
   zip_url: https://github.com/SpacehuhnTech/WiFiDuck/archive/refs/heads/master.zip
