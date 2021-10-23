@@ -8,13 +8,15 @@
 
 The WiFi Duck is an open-source project and user-friendly tool to learn about keystroke injection attacks or 'BadUSBs'. By emulating a USB keyboard, a BadUSB can gain full access to a computer in a matter of seconds!  
 
-Unlike other BadUSBs, with the WiFi Duck you don't need to install an app, log in, compile or copy scripts to an SD card.  
-You can simply connect via WiFi to manage all your scripts from within a web interface.
+Unlike with other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card.  
+You simply connect via WiFi to manage all your scripts from within a web interface.
 
 **Disclaimer:**
 
 This tool is intended to be used for testing, training, and educational purposes only.  
 Never use it to do harm or create damage!  
+
+---
 
 ## Malduino W
 
@@ -29,6 +31,8 @@ Never use it to do harm or create damage!
 This encased and inconspicuous looking BadUSB by Maltronics comes with both USB-A and USB-C.
 It runs the WiFi Duck firmware and works plug and play.  
 ℹ️ **[Documentation can be found here](http://docs.maltronics.com/malduino-w/)**
+
+---
 
 ## DSTIKE WiFi Duck
 
