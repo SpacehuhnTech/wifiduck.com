@@ -10,8 +10,8 @@
 
 A user-friendly open-source project to learn about keystroke injection attacks or 'BadUSBs'. By emulating a USB keyboard, BadUSBs can gain full access to a computer in a matter of seconds!  
 
-Unlike with other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card. 
-You simply connect via WiFi to manage all your scripts from within a web interface.
+Unlike with other BadUSBs, you don't need to install an app, log in, compile, or copy scripts onto an SD card. 
+You simply connect via WiFi to manage all your scripts from within the web interface.  
 
 {% include buttons.html %}
 
