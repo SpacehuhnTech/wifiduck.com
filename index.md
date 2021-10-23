@@ -1,8 +1,6 @@
 <p align="center">
-<img alt="WiFi Duck Logo" src="assets/img/thumbnail.jpg" width="640">
+    <img alt="WiFi Duck Functions" src="assets/img/wifiduck_functions.png">
 </p>
-
-## About
 
 This open-source project aims to provide a user-friendly tool to learn about keystroke injection attacks and 'BadUSBs'.  
 
@@ -14,6 +12,13 @@ By using a simple scripting language, it's easy to make BadUSBs type whatever yo
 
 With the WiFi Duck, you can simply connect via WiFi to manage all scripts
 from within a web interface. This means that, unlike other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card.  
+
+## Disclaimer
+
+This tool is intended to be used for testing, training, and educational purposes only.  
+Never use it to do harm or create damage!  
+
+The continuation of this project counts on you!  
 
 ## Usage
 
@@ -63,10 +68,3 @@ It comes flashed with the WiFi Duck firmware and works plug and play.
 </p>
 
 A custom designed development board which comes preflashed with this software by Travis Lin.  
-
-## Disclaimer
-
-This tool is intended to be used for testing, training, and educational purposes only.  
-Never use it to do harm or create damage!  
-
-The continuation of this project counts on you!  
