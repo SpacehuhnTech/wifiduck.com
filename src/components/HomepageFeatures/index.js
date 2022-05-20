@@ -5,31 +5,34 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        1. Connect to wifiduck : wifiduck
+        <br/>
+        2. Open 192.168.4.1 in your browser
+        <br/>
+        3. Create and run your BadUSB scripts
+      </>
+    ),
+  },
+  {
+    title: 'Wireless',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Manage your scripts from a web interface.
+        <br />
+        No need to copy compile or copy them onto a SD card.
+      </>
+    ),
+  },
+  {
+    title: 'Learn & Test',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Perfect for testing keystroke injection attacks and learning about BadUSBs.
       </>
     ),
   },
