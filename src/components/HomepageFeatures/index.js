@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/easytouse.svg').default,
     description: (
       <>
         1. Connect to wifiduck : wifiduck
@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Wireless',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/wireless.svg').default,
     description: (
       <>
         Manage your scripts from a web interface.
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: 'Learn & Test',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/test.svg').default,
     description: (
       <>
         Perfect for testing keystroke injection attacks and learning about BadUSBs.
