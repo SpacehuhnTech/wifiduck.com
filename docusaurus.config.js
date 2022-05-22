@@ -14,6 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
+  scripts: [{ src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'wifiduck.com' }],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'spacehuhntech', // Usually your GitHub org/user name.
