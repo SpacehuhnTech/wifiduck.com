@@ -116,6 +116,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        { name: 'description', content: 'Open-Source Wireless BadUSB based on ESP8266 and ATmega32u4.' },
+        { name: 'keywords', content: 'DuckyScript, Ducky, Script, BadUSB, Atmega32u4, ESP8266, Arduino, Spacehuhn' },
+        { name: 'author', content: 'Spacehuhn' },
+      ],
+      image: '/img/thumbnail.jpg',
     }),
 };
 
