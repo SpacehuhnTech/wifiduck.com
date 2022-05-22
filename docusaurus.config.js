@@ -60,7 +60,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/spacehuhntech/wifiduck',
@@ -69,14 +69,14 @@ const config = {
           },
         ],
       },
-      footer: {
+      /*footer: {
         style: 'dark',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
@@ -109,7 +109,7 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      },*/
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
