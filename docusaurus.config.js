@@ -66,8 +66,8 @@ const config = {
           },
           {
             href: 'https://learnbadusb.com',
-            label: 'Course',
-            position: 'left',
+            label: 'Online Course',
+            position: 'right',
           },
           {
             href: 'https://github.com/spacehuhntech/wifiduck',
