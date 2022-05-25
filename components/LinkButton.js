@@ -10,6 +10,10 @@ const css = {
     height: '2.25em',
     lineHeight: '2.25em',
     textDecoration: 'none',
+    margin: '0',
+    padding: '0',
+    marginRight: '.5em',
+    marginBottom: '.5em',
 }
 
 export default function LinkButton({ link, text }) {

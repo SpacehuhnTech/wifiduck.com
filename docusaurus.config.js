@@ -65,6 +65,16 @@ const config = {
             label: 'Docs',
           },
           {
+            to: 'docs/category/buy',
+            position: 'left',
+            label: 'Buy',
+          },
+          {
+            to: 'docs/download',
+            position: 'left',
+            label: 'Download',
+          },
+          {
             href: 'https://learnbadusb.com',
             label: 'Online Course',
             position: 'right',

@@ -3,7 +3,21 @@ title: 'Download'
 sidebar_position: 30
 ---
 
-Get the latest project files from Github: https://github.com/SpacehuhnTech/WiFiDuck/
-bin files can be found here: https://github.com/SpacehuhnTech/WiFiDuck/releases
+import LinkButton from '../components/LinkButton'
 
-Check [DIY Tutorial](category/diy-tutorial/) for instructions
+Find the latest projects file on the GitHub repository.  
+Bin files can be found on the releases page (click on Assets).  
+
+<LinkButton
+    link='https://github.com/SpacehuhnTech/WiFiDuck/'
+    text='GitHub Repo'
+/>
+
+<LinkButton
+    link='https://github.com/SpacehuhnTech/WiFiDuck/releases'
+    text='Releases'
+/>
+
+:::tip
+For instructions, please check [Software Installation](category/software-installation/)
+:::
