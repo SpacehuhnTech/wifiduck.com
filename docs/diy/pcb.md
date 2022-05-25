@@ -6,7 +6,7 @@ sidebar_position: 30
 
 To make the DIY process more accessible, I designed a small PCB.  
 
-You solder a Pro Micro board on one side and a D1 Mini on the other side (or NodeMCU board, depending on the PCB). You don't even have to solder all pins, just those mentioned in [Connections](/connections).
+You solder a Pro Micro board on one side and a D1 Mini on the other side (or NodeMCU board, depending on the PCB). You don't even have to solder all pins, just those mentioned in [Connections](connections).
 
 <img alt="Soldered PCBs" src="/img/pcbs_soldered.jpg" width="600" />
 <br />

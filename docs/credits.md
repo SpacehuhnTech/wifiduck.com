@@ -16,7 +16,7 @@ This project wouldn't have been possible without you!
 ## License
 
 This software is licensed under the MIT License.
-See the [license file](LICENSE) for details.  
+See the [license file](https://github.com/SpacehuhnTech/WiFiDuck/blob/master/LICENSE) for details.  
 
 ## Credits
 

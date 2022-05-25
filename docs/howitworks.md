@@ -22,7 +22,7 @@ BadUSBs are programmed using a simple scripting language to define the sequence 
 
 On the WiFi Duck, it's easy to test your scripts because you don't have to compile them or load them onto a micro SD card as with other BadUSBs. Instead, you edit and run them from within the web interface. 
 
-You can find the reference to the WiFi Duck scripting language [here](categories/scripting/). 
+You can find the reference to the WiFi Duck scripting language [here](category/scripting). 
 
 ## Limitations ⛔
 
