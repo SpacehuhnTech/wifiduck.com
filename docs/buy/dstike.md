@@ -1,24 +1,32 @@
 ---
 title: 'DSTIKE WiFi Duck'
-sidebar_position: 2
+sidebar_position: 20
+image: 'img/dstike.png'
 ---
 
-<p align="center">
-  <a href="https://dstike.com/collections/frontpage/products/dstike-wifi-duck">
-    <img alt="DSTIKE WiFi Duck" src="/img/dstike.png" width="400" />
-    <br />
-    <b>Got to DSTIKE.com</b>
-  </a>
-</p>
+import LinkButton from '../../components/LinkButton'
 
-A custom designed development board which comes preflashed with this software by Travis Lin.  
+<img alt="DSTIKE WiFi Duck" src="/img/dstike.png" width="400" />
 
-You can update the ESP8266 over the air and flash the Atmega32u4 via Arduino, all while enclosed in its neat little case.  
-📺 **[Watch the How to Update Tutorial here](https://youtu.be/e3-nsOjclsY)**.
 
-If you wish to develop your own software or help improve this one, 
-the 8-bit DIP-switch makes it easy for you to access the Atmega32u4 or ESP8266 independently. 
-For more info see [Flash Software](#flash-software).
+A custom-designed development board by [Travis Lin](https://dstike.com).  
+
+➕ Can be flashed over the air and manually using the dip switches.  
+⚠️ Might require you to install the latest firmware to make it work.  
+❤️ Every purchase supports this project and other open-source Spacehuhn projects!
+
+<LinkButton 
+  text='Buy Now'
+  link='https://dstike.com/collections/frontpage/products/dstike-wifi-duck'
+/>
+
+## Additional Documentation
+
+:::info
+Watch the "How to Update Tutorial" here: https://youtu.be/e3-nsOjclsY
+:::
+
+The 8-bit DIP switch makes it easy for you to access the Atmega32u4 or ESP8266 independently if you ever need to reflash them.  
 
 | Mode | Atmega32u4 | ESP8266 | DIP-switch | Image |
 | --- | --- | --- | --- | --- |
