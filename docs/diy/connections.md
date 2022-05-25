@@ -1,6 +1,6 @@
 ---
 title: 'Connections'
-sidebar_position: 2
+sidebar_position: 20
 ---
 
 ### Connections
