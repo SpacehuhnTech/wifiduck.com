@@ -1,6 +1,6 @@
 ---
 title: 'How it works'
-sidebar_position: 2
+sidebar_position: 20
 ---
 
 By emulating a USB keyboard, tools like this can gain full access to any computer with a USB port in a matter of seconds!

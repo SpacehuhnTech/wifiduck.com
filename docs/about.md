@@ -1,7 +1,9 @@
 ---
-sidebar_position: 1
 title: 'About'
+sidebar_position: 10
 ---
+
+import LinkButton from '../components/LinkButton'
 
 # About
 
@@ -20,12 +22,12 @@ WiFi Duck is an open-source tool to test keystroke injection attacks and learn a
 * Great for quickly developing new scripts and testing them.
 
 <!-- Buttons -->
-<a href='https://ko-fi.com/G2G75FA4V' target='_blank'>
-  <img height='36' style={{border:0,height:'36px'}} src='/img/kofi_button.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
-&nbsp;
 <a href='https://discord.com/invite/238wu8g'>
   <img height='36' style={{border:0,height:'36px'}} src='/img/discord_button.png' alt='Discord Server button'/>
+</a>
+&nbsp;
+<a href='https://ko-fi.com/G2G75FA4V' target='_blank'>
+  <img height='36' style={{border:0,height:'36px'}} src='/img/kofi_button.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 </a>
 
 <br />
@@ -47,18 +49,20 @@ WiFi Duck is an open-source tool to test keystroke injection attacks and learn a
 Encased and inconspicuous looking BadUSB by Maltronics.  
 Based on the WiFi Duck firmware and works plug and play.
 
-<a href='https://maltronics.com/collections/malduinos/products/malduino-w' target='_blank'>
-  <img height='36' style={{border:0,height:'36px'}} src='/img/buy_button.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+<LinkButton 
+  link='https://maltronics.com/collections/malduinos/products/malduino-w'
+  text='Buy Now'
+/>
 
 ### DSTIKE WiFi Duck
 <img src='/img/dstike.png' width='300' alt='DSTIKE WiFi Duck' />
 
 A development board designed for WiFi Duck by Travis Lin.
 
-<a href='https://dstike.com/collections/frontpage/products/dstike-wifi-duck' target='_blank'>
-  <img height='36' style={{border:0,height:'36px'}} src='/img/buy_button.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+<LinkButton 
+  link='https://dstike.com/collections/frontpage/products/dstike-wifi-duck'
+  text='Buy Now'
+/>
 
 ### DIY
 <img src='/img/pcbs_soldered.jpg' alt='DIY WiFi Duck' />
@@ -67,6 +71,10 @@ You can also build a WiFi Duck yourself!
 You will need an ATmega32u4 and ESP8266 development board. 
 The ATmega acts as a USB keyboard, and the ESP8266 hosts the web interface.  
 
+<LinkButton 
+  link='category/diy-hardware/'
+  text='Start Building'
+/>
 
 ## Web Interface
 ![Screenshot of WiFi Duck Web Interface](/img/webinterface.jpg)

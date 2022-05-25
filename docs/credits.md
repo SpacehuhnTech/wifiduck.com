@@ -1,6 +1,6 @@
 ---
 title: 'Credits'
-sidebar_position: 99
+sidebar_position: 100
 ---
 
 Software libraries used in this project:

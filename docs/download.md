@@ -1,6 +1,6 @@
 ---
 title: 'Download'
-sidebar_position: 3
+sidebar_position: 30
 ---
 
 Get the latest project files from Github: https://github.com/SpacehuhnTech/WiFiDuck/

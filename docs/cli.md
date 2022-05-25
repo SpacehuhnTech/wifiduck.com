@@ -1,5 +1,6 @@
 ---
 title: 'CLI Terminal'
+sidebar_position: 90
 ---
 
 ## CLI Commands
