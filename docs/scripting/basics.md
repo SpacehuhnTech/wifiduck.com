@@ -1,28 +1,43 @@
 ---
 title: 'Basics'
-sidebar_position: 1
+description: 'How BadUSB a script looks like.'
+sidebar_position: 10
 ---
 
-### Basics
+:::info
+WiFi Duck's script language is compatible with Ducky Script. However, some functions and keys were added or modified.
+You can find a great Ducky Script quick reference [at docs.hak5.org](https://docs.hak5.org/usb-rubber-ducky-1/the-ducky-script-language/ducky-script-quick-reference).
+:::
 
-Keys are separated by a single space.  
-Everything written in a single line gets pressed and released at the same time.  
-To write text, use the STRING function.  
-It's compatible to Ducky Script, which was developed by the wonderful people at [Hak5](https://www.hak5.org/).  
+## Basic rules:
+* A single space separates keys
+* All keys as part of the same line get pressed and released simultaneously
+* To write text, use the `STRING` function
+* Upper and lower case matters!
 
 | Example | Explanation |
-| ------- | ----------- |
-| WINDOWS <br /> r | Type the Windows key and then the r key |
-| WINDOWS r | Press the Windows key and the r key simultaneously |
-| STRING WINDOWS r | Write WINDOWS r |
+| ------- | ------------ |
+| `WINDOWS R` | Press the Windows key and the R key simultaneously |
+| `STRING Hello World` | Write "Hello World" |
 
-### Examples
+## Example Script:
 
 ```
-REM Hello World for Windows PCs
+REM Hello World Example Script
 DEFAULTDELAY 200
-GUI r
+DELAY 2000
+GUI R
 STRING notepad
 ENTER
 STRING Hello World!
 ```
+
+| Line | Explanation |
+| ---- | ------------ |
+| `REM This is a comment` | Comment something. |
+| `DEFAULTDELAY 200` | Set the default delay between each line to 200 milliseconds. |
+| `DELAY 2000` | Wait 2 seconds. |
+| `GUI R` | Press the Windows key and the R key simultaneously to open the run window. |
+| `STRING notepad` | Type "notepad". |
+| `ENTER` | Press enter key to launch the Windows Notepad application. |
+| `STRING Hello World!` | Type "Hello World!" into the newly opened notepad window. |

@@ -1,9 +1,10 @@
 ---
 title: 'Keys'
-sidebar_position: 3
+description: 'All keys available on the WiFi Duck'
+sidebar_position: 30
 ---
 
-### Standard Keys
+## Standard Keys
 
 | Key |
 | --- |
@@ -12,7 +13,7 @@ sidebar_position: 3
 | `0` - `9` |
 | `F1` - `F12` |
 
-### Modifier Keys
+## Modifier Keys
 
 | Key |
 | --- |
@@ -21,7 +22,7 @@ sidebar_position: 3
 | `ALT` |
 | `WINDOWS` or `GUI` |
 
-### Other Keys
+## Other Keys
 
 | Key |
 | --- |
@@ -46,7 +47,7 @@ sidebar_position: 3
 | `PRINTSCREEN` |
 | `SCROLLLOCK` |
 
-### Numpad Keys
+## Numpad Keys
 
 | Key |
 | --- |
