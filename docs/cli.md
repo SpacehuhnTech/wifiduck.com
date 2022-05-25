@@ -1,13 +1,14 @@
 ---
-title: 'CLI Terminal'
+title: 'Terminal Commands'
+description: 'How to use the WiFi Duck terminal.'
 sidebar_position: 90
 ---
 
-## CLI Commands
+:::tip
+The command-line interface or CLI is accessible using a serial connection to the ESP8266 (115200 baud, Newline ending) or via the web interface at `192.168.4.1/terminal.html`.  
+:::
 
-The command line interface or CLI is accessible using a serial connection to the ESP8266 (115200 baud, Newline ending) or via the web interface at `192.168.4.1/terminal.html`.  
-
-### General
+## General
 
 | Command | Description | Example |
 | ------- | ----------- | ------- |
@@ -21,7 +22,7 @@ The command line interface or CLI is accessible using a serial connection to the
 | run <...> | Starts executing a Ducky script | `run example.txt` |
 | stop <...> | Stops executing a Ducky script | `stop example.txt` |
 
-### SPIFFS File Management
+## SPIFFS File Management
 
 | Command | Description | Example |
 | ------- | ----------- | ------- |
@@ -37,4 +38,6 @@ The command line interface or CLI is accessible using a serial connection to the
 | close | Closes file stream | `close` |
 | read | Read and return the result from file stream | `read` |
 
+:::info
 If a stream is open, everything you type (except messages containing exactly `close` or `read`) will be written to the file until you type `close`!  
+:::
