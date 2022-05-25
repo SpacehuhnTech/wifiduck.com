@@ -1,5 +1,6 @@
 ---
 title: 'PCB'
+description: 'A small PCB to make the DIY process easier.'
 sidebar_position: 30
 ---
 

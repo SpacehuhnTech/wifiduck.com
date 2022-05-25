@@ -1,5 +1,6 @@
 ---
 title: 'Connections'
+description: 'How to connect both boards to each other.'
 sidebar_position: 20
 ---
 

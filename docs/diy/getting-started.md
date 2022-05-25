@@ -1,5 +1,6 @@
 ---
 title: 'Getting Started'
+description: 'What hardware you need, and where to get it.'
 sidebar_position: 10
 ---
 

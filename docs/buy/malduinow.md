@@ -1,7 +1,8 @@
 ---
 title: 'MalDuino W'
-sidebar_position: 10
 image: 'img/malw.png'
+description: 'A nicely encased, inconspicuous-looking BadUSB.'
+sidebar_position: 10
 ---
 
 import LinkButton from '../../components/LinkButton'

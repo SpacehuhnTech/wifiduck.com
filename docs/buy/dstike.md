@@ -1,7 +1,8 @@
 ---
 title: 'DSTIKE WiFi Duck'
-sidebar_position: 20
+description: 'A custom-designed development board by Travis Lin.'
 image: 'img/dstike.png'
+sidebar_position: 20
 ---
 
 import LinkButton from '../../components/LinkButton'
