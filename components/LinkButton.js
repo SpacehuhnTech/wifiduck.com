@@ -6,7 +6,6 @@ const css = {
     textAlign: 'center',
     color: '#fff',
     display: 'inline-block',
-    minWidth: '10em',
     height: '2.25em',
     lineHeight: '2.25em',
     textDecoration: 'none',
@@ -14,6 +13,8 @@ const css = {
     padding: '0',
     marginRight: '.5em',
     marginBottom: '.5em',
+    paddingLeft: '2em',
+    paddingRight: '2em',
 }
 
 export default function LinkButton({ link, text }) {

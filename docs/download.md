@@ -9,8 +9,8 @@ Find the latest projects file on the GitHub repository.
 Bin files can be found on the releases page (click on Assets).  
 
 <LinkButton
-    link='https://github.com/SpacehuhnTech/WiFiDuck/'
-    text='GitHub Repo'
+    link='https://github.com/spacehuhn/WiFiDuck/archive/master.zip'
+    text='Download .zip'
 />
 
 <LinkButton
@@ -18,6 +18,11 @@ Bin files can be found on the releases page (click on Assets).
     text='Releases'
 />
 
+<LinkButton
+    link='https://github.com/SpacehuhnTech/WiFiDuck/'
+    text='GitHub Repo'
+/>
+
 :::tip
-For instructions, please check [Software Installation](category/software-installation/)
+For installation instructions, please check [Software Installation](category/software-installation/)
 :::
