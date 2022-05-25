@@ -4,7 +4,7 @@ description: 'Thanks, License, and libraries used in WiFi Duck.'
 sidebar_position: 100
 ---
 
-## Thank You
+## Thank You ❤️
 Thank you to everyone who bought a WiFi Duck from DSTIKE or a MalDuino W from Maltronics.  
 And thank you to everyone who supports me on Ko-fi.
 This project wouldn't have been possible without you!
