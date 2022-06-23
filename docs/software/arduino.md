@@ -20,4 +20,4 @@ sidebar_position: 10
 If your computer isn't detecting the ESP8266, you're probably missing the drivers. 
 Try installing these:  
 - :floppy_disk: [CP2102](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-- :floppy_disk: [CH340](https://sparks.gogo.co.nz/ch340.html)
+- :floppy_disk: [CH340](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
