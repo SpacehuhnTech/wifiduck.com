@@ -1,31 +1,35 @@
 import React from 'react'
 
+import Box from '@mui/material/Box'
+import Link from '@mui/material/Link'
+import Typography from '@mui/material/Typography'
+
 import version from '../../version.js'
 
 const Footer = () => {
-    return (
-        <>
-            { /* Made in Germany :D */}
-            <p
-                align='center'
-                display='block'
-                style={{ margin: 0 }}
-            >
-                Made with ❤️ by <a href='https://spacehuhn.com' target='_blank' underline='hover' color='inherit'>Spacehuhn</a>
-            </p>
+  return (
+    <Box>
+      { /* Made in Germany :D */}
+      <Box sx={{ mx: 'auto', mt: 0 }}>
+        <Typography
+          align='center'
+          display='block'>
+          Made with ❤️ by <Link href='https://spacehuhn.com' target='_blank' underline='hover' color='inherit'>Spacehuhn</Link>
+        </Typography>
+      </Box>
 
-            { /* Version */}
-            <p
-                align='center'
-                display='block'
-                style={{ margin: 0 }}
-            >
-                <a href='https://github.com/spacehuhntech/wifiduck' target='_blank' underline='hover' style={{ color: '#ccc' }}>
-                    {version.name}
-                </a>
-            </p>
-        </>
-    )
+      { /* Version */}
+      <Typography
+        variant='caption'
+        align='center'
+        display='block'
+      >
+        <Link href='https://github.com/spacehuhntech/duckify' target='_blank' underline='hover' style={{ color: '#ccc' }}>
+          {version.name}
+        </Link>
+      </Typography>
+    </Box>
+  )
 }
 
 export default Footer
