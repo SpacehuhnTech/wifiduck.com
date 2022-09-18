@@ -21,11 +21,11 @@ WiFi Duck is an open-source tool to test keystroke injection attacks and learn a
 * No need to compile your scripts or copy them onto a micro SD card
 * Great for quickly developing new scripts and testing them.
 
-<!-- Buttons -->
+<!-- Buttons 
 <a href='https://discord.com/invite/238wu8g'>
   <img height='36' style={{border:0,height:'36px'}} src='/img/discord_button.png' alt='Discord Server button'/>
 </a>
-&nbsp;
+&nbsp;-->
 <a href='https://ko-fi.com/G2G75FA4V' target='_blank'>
   <img height='36' style={{border:0,height:'36px'}} src='/img/kofi_button.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 </a>
