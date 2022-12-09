@@ -137,6 +137,11 @@ const config = {
         { name: 'author', content: 'Spacehuhn' },
       ],
       image: '/img/thumbnail.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
     }),
 };
 
